@@ -15,6 +15,7 @@
 		8410E0F5290703E500728F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8410E0F3290703E500728F57 /* LaunchScreen.storyboard */; };
 		8410E0FF2907108700728F57 /* pepas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8410E0FD2907108700728F57 /* pepas.mp3 */; };
 		8410E1002907108700728F57 /* servis.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 8410E0FE2907108700728F57 /* servis.MOV */; };
+		8410E122290846C400728F57 /* onz.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8410E121290846C400728F57 /* onz.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8410E0F6290703E500728F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8410E0FD2907108700728F57 /* pepas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pepas.mp3; sourceTree = "<group>"; };
 		8410E0FE2907108700728F57 /* servis.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = servis.MOV; sourceTree = "<group>"; };
+		8410E121290846C400728F57 /* onz.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onz.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		8410E0FC2907105800728F57 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				8410E121290846C400728F57 /* onz.mp4 */,
 				8410E0FD2907108700728F57 /* pepas.mp3 */,
 				8410E0FE2907108700728F57 /* servis.MOV */,
 			);
@@ -142,6 +145,7 @@
 				8410E0FF2907108700728F57 /* pepas.mp3 in Resources */,
 				8410E1002907108700728F57 /* servis.MOV in Resources */,
 				8410E0F5290703E500728F57 /* LaunchScreen.storyboard in Resources */,
+				8410E122290846C400728F57 /* onz.mp4 in Resources */,
 				8410E0F2290703E500728F57 /* Assets.xcassets in Resources */,
 				8410E0F0290703E300728F57 /* Main.storyboard in Resources */,
 			);

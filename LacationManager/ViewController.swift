@@ -48,7 +48,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     
     func videoTwo(){
-        guard let url = Bundle.main.url(forResource: "servis", withExtension: "MOV") else { return }
+        guard let url = Bundle.main.url(forResource: "onz", withExtension: "mp4") else { return }
 //        let videoURL = URL(string: "http://techslides.com/demos/sample-videos/small.mp4")
         let player = AVPlayer(url: url)
         let playerLayer = AVPlayerLayer(player: player)
@@ -58,7 +58,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func video (){
-        let videoURL = URL(string: "https://www.youtube.com/watch?v=tntNDXg076U&t=16s")
+        let videoURL = URL(string: "http://techslides.com/demos/sample-videos/small.mp4")
         let player = AVPlayer(url: videoURL!)
         let playerViewController = AVPlayerViewController()
         playerViewController.player = player
@@ -70,14 +70,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBAction func musikButton(_ sender: UIButton) {
         
-//        playSound()
+            video()
     }
     
     @IBAction func videoButton(_ sender: UIButton) {
-            video()
+            videoTwo()
       
     }
-    
-    
+
 }
 
